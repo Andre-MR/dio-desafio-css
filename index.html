@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Desafio CSS - Portfólio</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <!-- <script src='main.js'></script> -->
+</head>
+
+<body>
+  <header class="header-wrapper">
+    <div class="header">
+      <div class="checkbox-container">
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="toggle">
+          <label class="checkbox" for="toggle">
+            <div class="trace"></div>
+            <div class="trace"></div>
+            <div class="trace"></div>
+          </label>
+          <div class="menu"></div>
+          <nav class="menu-items">
+            <ul>
+              <!-- <li>
+                <a href="#">Home</a>
+              </li> -->
+              <li>
+                <a href="https://www.linkedin.com/in/andremoreirarezende/">Sobre</a>
+              </li>
+              <li>
+                <a href="https://github.com/Andre-MR">Projetos</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <h1>Andre MR</h1>
+    <h2>Front-end Developer</h2>
+    <div class="social-media">
+      <a href="https://www.linkedin.com/in/andremoreirarezende/" target="_blank">Linkedin</a>
+      <a href="https://github.com/Andre-MR" target="_blank">Github</a>
+    </div>
+  </header>
+  <main class="container" id="mainContainer">
+    <div class="card-container">
+      <div class="card-text">
+        <a href="https://github.com/Andre-MR/ATMsimulator" target="_blank">Simulador de ATM</a>
+        <br>
+        <br>
+        <a href="https://github.com/Andre-MR/guiche" target="_blank">Jogo de Guichê de Caixa</a>
+        <br>
+        <br>
+        <a href="https://github.com/Andre-MR/affiliation-manager" target="_blank">Gerenciador de Afiliações</a>
+        <br>
+        <br>
+        <a href="https://github.com/Andre-MR/offer-manager" target="_blank">Gerenciador de Promoções</a>
+      </div>
+      <div class="card">
+        <div class="card-wrapper" onclick="window.open('https://github.com/Andre-MR');">
+          <h2>Github</h2>
+          <p>Veja meus projetos</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <div class="card-wrapper" onclick="window.open('https://www.linkedin.com/in/andremoreirarezende/');">
+          <h2>LinkedIn</h2>
+          <p>Acompanhe minha carreira!</p>
+        </div>
+      </div>
+      <div class="card-text">
+        Desenvolvedor Full Stack | Javascript | HTML | CSS | Bootstrap | React Native | Node.js | MySQL | AWS
+        <br>
+        <br>
+        Bacharel em Sistemas de Informação pela Faculdade Politécnica de Uberlândia
+        <br>
+        <br>
+        <a href="https://www.linkedin.com/in/andremoreirarezende/" target="_blank">Perfil</a>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card-text">
+        Life is just what happens to you, while you're busy, making other plans...
+      </div>
+      <div class="card">
+        <div class="card-wrapper" onclick="window.open('https://instagram.com');">
+          <h2>Instagram</h2>
+          <p>Ou mais do meu dia-a-dia :)</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    Feito por Andre MR
+  </footer>
+</body>
+
+</html>
